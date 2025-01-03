@@ -22,3 +22,42 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# IDE-specific files
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build files
+target/
+out/
+
+# Maven/Gradle Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# Logs
+logs/
+*.log
+
+# Compiled files
+*.class
+*.war
+*.jar
+
+# Temporary files
+tmp/
+*.tmp
+*.swp
+
+# Exclude config or sensitive files (customize as needed)
+.env
